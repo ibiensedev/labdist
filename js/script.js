@@ -18,6 +18,10 @@ document.addEventListener("DOMContentLoaded", function() {
             valid = false;
         }
 
+        if (mensaje.value.trim() === "") {
+            alert("Ingrese un mensaje, por favor");
+            valid = false;
+        }
         
         if (!valid) {
             event.preventDefault();
