@@ -7,9 +7,10 @@
   - [Trabajo en remoto](#2-trabajo-en-remoto)
   - [Conflictos](#3-conflictos)
   - [URL repositorio GitHub](#4-url-repositorio-github)
-  - [Videoclip](#5-videoclip)
+  - [Subida de documentación](#5-subida-de-documentación)
+  - [Videoclip](#6-videoclip)
 
-## 1. Trabajo en local
+## 1. Trabajo en local 
 
 Antes de comenzar escribimos el siguiente comando para que el historial de ramas de Git se mantenga como un árbol.
 ```bash
@@ -114,6 +115,8 @@ git log --oneline --graph --decorate --all
 
 ![alt text](images/image-10.png)
 
+[Volver al índice](#índice)
+
 ## 2. Trabajo en remoto
 
 ### 2.1. Continúa con el repositorio labdist. Añade el repositorio a Sourcetree.
@@ -216,6 +219,8 @@ Se hace el merge de la rama feature-mapa con main en GitHub, para ello se crea u
 
 ![alt text](images/image-36.png)
 
+[Volver al índice](#índice)
+
 ## 3. Conflictos
 
 ### 3.1. Crea una rama hotfix-js. Cámbiate a ella. Añade este código en el fichero script.js. Confirma el cambio y haz un commit con el mensaje "corregido problema en script.js". (Fíjate en los números de línea de tu editor...)
@@ -251,18 +256,36 @@ Se realiza el merge de la rama hotfix-js en main, se resuelve el conflicto y se 
 ![alt text](images/image-48.png)
 
 ![alt text](images/image-50.png)
+
+[Volver al índice](#índice)
   
 ## 4. URL repositorio GitHub
 
-Se facilita acceso a la profesora Inés, de Despliegue de Aplicaciones Web, al repositorio de GitHub.
+- [Url repositorio GitHub](https://github.com/ibiensedev/labdist.git)
+
+Se facilita acceso a la profesora Inés, de Despliegue de Aplicaciones Web, al repositorio de GitHub. Esto únicamente es necesario en caso de que el repositorio se haya creado como privado. Considero oportuno realizar la correspondiente aclaración a continuación. No obstante, añadiendo a un usuario como colaborador se permite que pueda hacer cambios directamente en el repositorio.
 
 ![alt text](images/image-51.png)
 
-- [Url repositorio GitHub](https://github.com/ibiensedev/labdist.git)
+La anterior acción la realice antes de darme cuenta de que para ver el gráfico en Network necesito tener una cuenta de GitHub Pro o hacer el repositorio público, inicialmente lo cree como privado pero cambie la visibilidad a público.
+
+![alt text](images/image-53.png)
+
+De esta forma, ya puedo visualizar el gráfico del timeline de los cambios realizados en el repositorio.
+
+![alt text](images/image-54.png)
+
+[Volver al índice](#índice)
 
 ## 5. Subida de documentación
 
 Se sube la documentación de la tarea al repositorio local y, a continuación, al remoto.
 
+![alt text](images/image-52.png)
+
+[Volver al índice](#índice)
+
 ## 6. Videoclip
-- [Videoclip]()
+- [Videoclip](https://educastur-my.sharepoint.com/:v:/g/personal/tqa88641_educastur_es/ETwZWlxJ08hKuImGNuVqAywBUs9lHBsdhAWPEAHNsaMVpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&email=minesmp%40educastur.org&e=afu9Gd)
+
+![alt text](images/image-55.png)
